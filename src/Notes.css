@@ -1,0 +1,43 @@
+body{
+  background-color: #808080;
+
+}
+
+.notes-list {
+  margin-left: 22.7%;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.note-item {
+  text-align: left;
+  padding: 20px;
+  margin: 2px;
+  width: 66.3%;
+  float: left;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.note-input {
+  width: 66.3%;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: white;
+  border: none;
+}
+
+.note-text {
+  max-width: 530px;
+  word-wrap: break-word;
+}
+
+.save-btn,
+.edit-btn,
+.delete-btn {
+  padding: 5px;
+  margin: 0px 5px;
+  width: 60px;
+  float: right;
+}
